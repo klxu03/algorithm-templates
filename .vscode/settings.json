@@ -8,6 +8,20 @@
 		"forward_list": "cpp",
 		"list": "cpp",
 		"source_location": "cpp",
-		"string": "cpp"
+		"string": "cpp",
+		"__node_handle": "cpp",
+		"array": "cpp",
+		"filesystem": "cpp",
+		"map": "cpp",
+		"queue": "cpp",
+		"regex": "cpp",
+		"set": "cpp",
+		"span": "cpp",
+		"stack": "cpp",
+		"string_view": "cpp",
+		"unordered_map": "cpp",
+		"unordered_set": "cpp",
+		"any": "cpp",
+		"ranges": "cpp"
 	}
 }
