@@ -14,10 +14,6 @@ class UnweightedGraph {
 		visited = vector<long long>(nodes, false);
 	}
 
-    void add_adj(vector<vector<long long> > &adj) {
-        this->adj = adj;
-    }
-
 	void init_adj() {
 		f0r(i, edges) {
 			ll n1, n2; // n1 for node1
