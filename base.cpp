@@ -82,12 +82,12 @@ void solve();
 // Problem URL: 
 int main() {
 	io;
-	ll test_cases = 1;
+	long long test_cases = 1;
 	// cin >> test_cases;
 	
-	f0r(test_case, test_cases) {
+    for (int i = 0; i < test_cases; i++) {
 		solve();
-	}
+    }
 }
 
 void solve() {
