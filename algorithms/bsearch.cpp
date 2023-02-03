@@ -28,12 +28,12 @@ int binary_search_rightmost(int val) {
 	int r = n - 1; // right
  
 	while (l < r) {
-		int mid = l + (r - l)/2;
+		int mid = l + (r - l + 1)/2;
  
 		if (arr[mid] <= val) {
-			l = mid + 1;
+			l = mid;
 		} else {
-			r = mid;
+			r = mid - 1;
 		}
 	}
 
