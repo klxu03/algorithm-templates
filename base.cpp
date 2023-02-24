@@ -81,7 +81,7 @@ void solve();
 
 // Problem URL: 
 int main() {
-	io;
+  io;
 	long long test_cases = 1;
 	// cin >> test_cases;
 	

@@ -14,6 +14,6 @@ using ll = long long;
 ll n;
 
 int main() {
-	io;
+    io;
     cin >> n;
 }
