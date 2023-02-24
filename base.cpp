@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+using ll = long long;
 
 //Safe lowerbound for 1 second is 10^8 operations
 
@@ -11,7 +12,6 @@ using namespace std;
 #define pb push_back
 #define f first
 #define s second
-using ll = long long;
 
 #define mp make_pair
 #define t third
