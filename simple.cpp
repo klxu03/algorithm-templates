@@ -1,36 +1,4 @@
-#include <iostream>
-
-#include <vector>
-
-#include <string>
-
-// #include <sstream>
-
-#include <iterator>
-
-// #include <map>
-
-// #include <set>
-
-// #include <utility>
-
-#include <algorithm>
-
-// #include <unordered_map>
-
-// #include <queue>
-
-// #include <functional>
-
-// #include <array>
-
-#include <deque>
-
-// #include <climits>
-
-// #include <stdio.h>
-
-// #include <stdlib.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 using ll = long long;
@@ -49,7 +17,13 @@ ll n;
 g++ -Wall -Wextra -O2 -std=c++17
 */
 
+void solve(); 
+
 int main() {
     io;
-    cin >> n;
+    solve();
+}
+
+void solve() {
+	cin >> n;
 }
