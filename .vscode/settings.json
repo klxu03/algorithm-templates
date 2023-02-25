@@ -23,6 +23,8 @@
 		"unordered_set": "cpp",
 		"any": "cpp",
 		"ranges": "cpp",
-		"iostream": "cpp"
+		"iostream": "cpp",
+		"algorithm": "cpp",
+		"random": "cpp"
 	}
 }
