@@ -45,7 +45,9 @@ using ll = long long;
 
 ll n;
 
-// g++ -Wall -Wextra -O2 -std=c++17
+/*
+g++ -Wall -Wextra -O2 -std=c++17
+*/
 
 int main() {
     io;
