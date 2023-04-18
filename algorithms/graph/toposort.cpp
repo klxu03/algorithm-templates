@@ -1,12 +1,9 @@
     // note that starting_node is unnecessary since indegree 0
     // create an indegree vector 
-    void toposort(long long starting_node) {
+    void toposort() {
         deque<long long> dq;
-        dq.push_back(starting_node);
 
         for (int i = 0; i < nodes; i++) {
-            if (i == starting_node) continue;
-
             if (indegree[i] == 0) {
                 dq.pb(i);
             }

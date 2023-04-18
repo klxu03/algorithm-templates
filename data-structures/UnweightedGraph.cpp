@@ -6,7 +6,9 @@ class UnweightedGraph {
 	vector<vector<long long> > adj; // adjacency neighbor vector
 	vector<long long> visited; // visited nodes
 
-	UnweightedGraph(long long nodes, long long edges, bool undirected) {
+	UnweightedGraph() {}
+
+	void init(long long nodes, long long edges, bool undirected) {
 		this->nodes = nodes;
 		this->edges = edges;
 		this->undirected = undirected;
