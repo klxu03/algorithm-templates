@@ -67,6 +67,27 @@ int binary_search_greater(int val) {
 	return l;
 }
 
+int binary_search_equal(int val) {
+	int l = 0; // left
+	int r = n - 1; // right
+
+	while (l <= r) {
+		int mid = l + (r - l)/2;
+
+		if (arr[mid] == val) {
+			return mid;
+		}
+
+		if (arr[mid] > val) {
+			r = mid - 1;
+		} else {
+			l = mid + 1;
+		}
+	}
+
+	return -1; // not found
+}
+
 void solve() {
 	cin >> n;
 	arr = vector<int>(n);
