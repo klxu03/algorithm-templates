@@ -2,7 +2,9 @@ class DSU {
     public:
     vector<int> c; // c for components
 
-    DSU(int n) {
+    DSU() {}
+
+    void init(int n) {
         c = vector<int>(n, -1);
     }
 
