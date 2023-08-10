@@ -78,7 +78,7 @@ mt19937_64 rng(std::chrono::steady_clock::now().time_since_epoch().count());
 // rng() gives a better random unsigned 32 bit number
 
 ll q, Q, T, k, l, r, x, y, z;
-int n, m;
+ll n, m;
 
 void solve(); 
 
