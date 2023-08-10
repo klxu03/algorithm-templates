@@ -8,7 +8,7 @@ using ll = long long;
 #define f0r(a, b) for (long long a = 0; a < b; a++)
 #define f1r(a, b, c) for (long long a = b; a < c; a++)
 #define r0f(a, b) for (long long a = b - 1; a >= 0; a--)
-#define r1f(a, b, c) for (long long a = c - 1; a >= b; a--)
+#define r1f(a, b, c) for (long long a = b; a >= c; a--)
 #define pb push_back
 #define f first
 #define s second
