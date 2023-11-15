@@ -25,6 +25,18 @@
 		"ranges": "cpp",
 		"iostream": "cpp",
 		"algorithm": "cpp",
-		"random": "cpp"
+		"random": "cpp",
+		"memory": "cpp",
+		"fstream": "cpp",
+		"future": "cpp",
+		"istream": "cpp",
+		"ostream": "cpp",
+		"sstream": "cpp",
+		"streambuf": "cpp",
+		"thread": "cpp",
+		"functional": "cpp",
+		"tuple": "cpp",
+		"valarray": "cpp",
+		"ios": "cpp"
 	}
 }
