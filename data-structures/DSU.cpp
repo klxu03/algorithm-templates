@@ -29,5 +29,5 @@ class DSU {
         c[x] += c[y]; 
         c[y] = x;
         return true;
-	}
+    }
 };
